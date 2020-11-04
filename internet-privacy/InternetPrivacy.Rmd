@@ -1,0 +1,45 @@
+---
+title: "Internet Privacy"
+output: html_notebook
+---
+
+# 1. Introduction
+Studying the responses of an Internet Privacy Poll across the United States.
+
+###### **Data Source**: July 2013 Pew Internet and American Life Project Poll on Internet Anonymity and Privacy
+###### **Author**: Anil George
+
+### 1.0.1 Imports
+```{r}
+# Read data into Poll dataframe
+poll = read.csv('raw-data/AnonymityPoll.csv')
+```
+
+### 1.0.2 Checks: Structure & Summary Statistics
+```{r}
+# Structure
+str(poll)
+# Summary
+summary(poll)
+```
+
+## 2. Analysis
+```{r}
+
+```
+
+## 3. Results
+```{r}
+
+```
+
+## 4. Conclusion
+
+
+
+---
+#### References
+- MITx Analytics Edge
+- [Pew Research Center](www.pewinternet.org/2013/09/05/anonymity-privacy-and-security-online/)
+
+Source data within raw-data folder.
